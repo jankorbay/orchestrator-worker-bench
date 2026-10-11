@@ -1,0 +1,54 @@
+{
+  "01-bugfix": {
+    "score": 1.0,
+    "detail": "13/13 hidden tests"
+  },
+  "02-write-tests": {
+    "score": 1.0,
+    "detail": "8/8 mutants caught; survived: []"
+  },
+  "03-refactor": {
+    "score": 1.0,
+    "detail": "6/6 hidden tests; old name gone=True; typed=100%; docstrings=100%"
+  },
+  "04-feature": {
+    "score": 1.0,
+    "detail": "14/14 hidden tests; random inputs: 500/500 agree"
+  },
+  "05-cron": {
+    "score": 1.0,
+    "detail": "19/19 hidden tests; random inputs: 2000/2000 agree"
+  },
+  "06-security-review": {
+    "score": 1.0,
+    "detail": "5/5 found; false positives: []"
+  },
+  "07-root-cause": {
+    "score": 1.0,
+    "detail": "17/17 hidden tests"
+  },
+  "08-concurrency": {
+    "score": 1.0,
+    "detail": "6/6 hidden tests"
+  },
+  "09-api-migration": {
+    "score": 1.0,
+    "detail": "41/41 hidden tests"
+  },
+  "10-datetime-migration": {
+    "score": 1.0,
+    "detail": "21/21 hidden tests"
+  },
+  "11-envfile": {
+    "score": 1.0,
+    "detail": "38/38 hidden tests"
+  },
+  "12-stock-drift": {
+    "score": 1.0,
+    "detail": "22/22 hidden tests"
+  },
+  "13-config-v2": {
+    "score": 1.0,
+    "detail": "26/26 hidden tests"
+  }
+}

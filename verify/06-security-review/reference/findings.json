@@ -1,0 +1,7 @@
+[
+  {"line": 17, "title": "SQL injection via f-string query", "fix": "Use a parameterized query."},
+  {"line": 30, "title": "Path traversal in download_file", "fix": "Resolve the real path and require it to stay under UPLOAD_DIR."},
+  {"line": 44, "title": "Command injection via shell=True", "fix": "Pass an argument list without shell=True."},
+  {"line": 62, "title": "Insecure deserialization of cookie with pickle", "fix": "Use signed JSON (e.g. HMAC) instead of pickle."},
+  {"line": 66, "title": "Unsalted MD5 password hashing", "fix": "Use a slow salted KDF such as hashlib.scrypt or argon2."}
+]

@@ -1,0 +1,13 @@
+{
+  "arm": "d",
+  "rep": "3",
+  "tasks": "*",
+  "wall_seconds": 393.6,
+  "config": {
+    "ORCH_MODEL": "opus",
+    "ORCH_EFFORT": "high",
+    "WORKER_MODEL": "haiku",
+    "WORKER_EFFORT": "medium",
+    "MAX_BUDGET_USD": "15"
+  }
+}

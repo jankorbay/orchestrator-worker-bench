@@ -1,0 +1,20 @@
+# graft's local code graph and its ripgrep config (regenerable: `graft build`)
+/graft/
+/.ignore
+
+# Python / OS / editor
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+
+# Raw run output: large, and full of local paths and session ids.
+# Committed per run: scores.json and meta.json. Summaries: results/REPORT.md and the charts in docs/.
+results/*/claude.json
+results/*/transcript/
+results/*/workspace/
+results/*.log
+results/logs/
+results/*-smoke/
+# Earlier rounds (different design or known measurement bugs); kept locally only.
+results/round*/

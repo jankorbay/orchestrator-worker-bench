@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 304" width="820" height="304" role="img" aria-label="Cost per run by model"><style>
+  .bg { fill: #ffffff; stroke: #d0d7de; }
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #57606a; }
+  .ink { fill: #1f2328; font-weight: 600; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+  .grid { stroke: #eaeef2; }
+  .axis { stroke: #d0d7de; }
+  .opus { fill: #34409a; } .sonnet { fill: #b8691a; }
+  .haiku-medium { fill: #7cc4b4; } .haiku-high { fill: #2c9883; } .haiku-xhigh { fill: #11655a; }
+  .miss { fill: #cf222e; }
+  .heat { fill: #34409a; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; stroke: #30363d; }
+    text { fill: #8d96a0; } .ink { fill: #e6edf3; }
+    .grid { stroke: #21262d; } .axis { stroke: #30363d; }
+    .opus { fill: #8f9bff; } .sonnet { fill: #e5a24c; }
+    .haiku-medium { fill: #2f7b6c; } .haiku-high { fill: #4fb59f; } .haiku-xhigh { fill: #9be3d2; }
+    .miss { fill: #ff7b72; } .heat { fill: #8f9bff; }
+  }
+</style><rect class="bg" x="0.5" y="0.5" width="819" height="303" rx="8"/><line class="grid" x1="190.0" x2="190.0" y1="20" y2="240"/><text class="mono" x="190.0" y="258" text-anchor="middle">$0</text><line class="grid" x1="268.6" x2="268.6" y1="20" y2="240"/><text class="mono" x="268.6" y="258" text-anchor="middle">$1</text><line class="grid" x1="347.1" x2="347.1" y1="20" y2="240"/><text class="mono" x="347.1" y="258" text-anchor="middle">$2</text><line class="grid" x1="425.7" x2="425.7" y1="20" y2="240"/><text class="mono" x="425.7" y="258" text-anchor="middle">$3</text><line class="grid" x1="504.3" x2="504.3" y1="20" y2="240"/><text class="mono" x="504.3" y="258" text-anchor="middle">$4</text><line class="grid" x1="582.9" x2="582.9" y1="20" y2="240"/><text class="mono" x="582.9" y="258" text-anchor="middle">$5</text><line class="grid" x1="661.4" x2="661.4" y1="20" y2="240"/><text class="mono" x="661.4" y="258" text-anchor="middle">$6</text><line class="grid" x1="740.0" x2="740.0" y1="20" y2="240"/><text class="mono" x="740.0" y="258" text-anchor="middle">$7</text><text class="ink" x="178" y="46" text-anchor="end">A · Opus medium workers</text><rect class="opus" x="190.0" y="28" width="494.4" height="26" rx="3"/><text class="mono" x="692.4" y="46">$6.29</text><text class="ink" x="178" y="90" text-anchor="end">B · Haiku xhigh workers</text><rect class="opus" x="190.0" y="72" width="181.6" height="26" rx="3"/><rect class="haiku-xhigh" x="371.6" y="72" width="43.3" height="26" rx="3"/><text class="mono" x="422.9" y="90">$2.86</text><text class="ink" x="178" y="134" text-anchor="end">C · Haiku high workers</text><rect class="opus" x="190.0" y="116" width="182.8" height="26" rx="3"/><rect class="haiku-high" x="372.8" y="116" width="26.3" height="26" rx="3"/><text class="mono" x="407.1" y="134">$2.66</text><text class="ink" x="178" y="178" text-anchor="end">D · Haiku medium workers</text><rect class="opus" x="190.0" y="160" width="195.6" height="26" rx="3"/><rect class="haiku-medium" x="385.6" y="160" width="17.0" height="26" rx="3"/><text class="mono" x="410.6" y="178">$2.71</text><text class="ink" x="178" y="222" text-anchor="end">E · Sonnet high workers</text><rect class="opus" x="190.0" y="204" width="184.1" height="26" rx="3"/><rect class="sonnet" x="374.1" y="204" width="224.2" height="26" rx="3"/><text class="mono" x="606.3" y="222">$5.20</text><rect class="opus" x="190" y="271" width="12" height="12" rx="2"/><text x="208" y="282">Opus (boss; also the workers in A)</text><rect class="haiku-high" x="491.0" y="271" width="12" height="12" rx="2"/><text x="509.0" y="282">Haiku workers</text><rect class="sonnet" x="634.5" y="271" width="12" height="12" rx="2"/><text x="652.5" y="282">Sonnet workers</text></svg>

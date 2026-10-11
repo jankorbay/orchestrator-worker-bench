@@ -1,0 +1,13 @@
+{
+  "arm": "e",
+  "rep": "1",
+  "tasks": "*",
+  "wall_seconds": 380.4,
+  "config": {
+    "ORCH_MODEL": "opus",
+    "ORCH_EFFORT": "high",
+    "WORKER_MODEL": "sonnet",
+    "WORKER_EFFORT": "high",
+    "MAX_BUDGET_USD": "15"
+  }
+}
